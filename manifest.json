@@ -1,0 +1,23 @@
+{
+  "Name": "FLECHA VMIX PRO",
+  "Version": "3.0",
+  "Author": "Flecha",
+  "CodePath": "plugin.js",
+  "Description": "Plugin completo com UI profissional",
+  "SDKVersion": 2,
+  "Actions": [
+    {
+      "Name": "Universal Control",
+      "UUID": "com.flecha.universal",    
+      "Icon": "icon",
+      "PropertyInspectorPath": "pi.html",
+      "States": [
+        { "Image": "off", "Title": "OFF" },
+        { "Image": "on", "Title": "LIVE" }
+      ]
+    }
+  ],
+  "OS": [
+    { "Platform": "windows", "MinimumVersion": "10" }
+  ]
+}  
